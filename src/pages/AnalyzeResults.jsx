@@ -243,10 +243,6 @@ export default function AnalyzeResults() {
     </div>
   )
 }
-      </PageWrapper >
-    </div >
-  )
-}
 
 const DEMO_REASONING = {
   agent1: `Temporal analysis reveals concerning upward trends across multiple metabolic markers over the past 6 months:
