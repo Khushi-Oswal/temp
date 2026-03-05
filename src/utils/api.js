@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { getIdToken } from './auth'
+import { getIdToken } from './auth.jsx'
 
 const BASE_URL = import.meta.env.VITE_API_URL
   || 'https://in69ou4s98.execute-api.ap-south-1.amazonaws.com/Dev'
