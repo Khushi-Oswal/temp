@@ -1,6 +1,6 @@
 import { NavLink, useNavigate } from 'react-router-dom'
 import { useToasts } from '../utils/toast'
-import { useAuth } from '../utils/auth'
+import { useAuth } from '../utils/auth.jsx'
 
 const navItems = [
     { path: '/', label: 'Home', icon: '🏠', exact: true },
