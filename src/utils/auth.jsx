@@ -8,8 +8,8 @@ import {
 
 // ⚠️ REPLACE THESE with your actual Cognito values from AWS Console
 const POOL_DATA = {
-  UserPoolId: ap-south-1_3aPW8eaey
-  ClientId: 70d7blck8mc1uemlif918872rh
+  UserPoolId: 'ap-south-1_3aPW8eaey'
+  ClientId: '70d7blck8mc1uemlif918872rh',
 }
 
 const userPool = new CognitoUserPool(POOL_DATA)
